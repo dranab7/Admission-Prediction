@@ -1,8 +1,8 @@
 Graduate Admission Chance Prediction Project
-Project Overview
+Project Overview :
 The goal of this project is to predict the likelihood of a student being admitted to a graduate program based on several key factors such as GRE scores, TOEFL scores, university ratings, statement of purpose strength, letter of recommendation strength, undergraduate CGPA, and research experience. By utilizing linear regression, we aim to develop a predictive model that can help prospective students estimate their chances of admission.
 
-Data Description
+Data Description:
 The dataset used in this project contains 400 observations with the following features:
 
 Serial No: Identifier for each student (not used in prediction)
@@ -47,5 +47,5 @@ CGPA: 0.1131
 Research: 0.0206
 The intercept of the model is -1.2831. Positive coefficients suggest that higher values of these features increase the chance of admission, while the negative coefficient for SOP indicates a slight decrease in admission chances with higher SOP scores, which might require further investigation.
 
-Conclusion
+Conclusion:
 This project demonstrates how linear regression can be effectively used to predict the likelihood of admission to graduate programs based on several academic and extracurricular factors. The model's predictions can serve as a useful tool for students to assess their chances and potentially improve their profiles before applying. The relatively low error metrics indicate that the model is quite accurate, though further refinement and exploration of more complex models could potentially improve predictions.
